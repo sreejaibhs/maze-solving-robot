@@ -1,4 +1,19 @@
 // C++ code
+/*
+ * Maze Solving Robot - ELEC1601
+ * 
+ * Description:
+ * Arduino-based autonomous robot that navigates a maze using IR sensors.
+ * Detects obstacles (left, right, front) and makes decisions to move,
+ * turn, or perform U-turns based on sensor input.
+ * 
+ * Features:
+ * - IR-based distance detection using frequency sweeping
+ * - Real-time navigation and obstacle avoidance
+ * - Servo motor control for movement
+ * 
+ * Author: Your Name
+ */
 //
 #include <Servo.h>
 Servo servoLeft;
